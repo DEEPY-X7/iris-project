@@ -62,12 +62,19 @@ Predict the **species**:
 - Null values  
 - Statistical summary  
 
-### ✓ Visuals:
+### ✓ Visualizations:
 
-- Histograms  
-- Scatter plots  
-- Pairplot  
-- Correlation heatmap  
+ ### 1. Histograms
+ ![Histograms](images/histograms.png)
+
+### 2. Scatter Plot (Petal Length Vs Petal Width)
+![Scatter Plot](images/scatter.png)
+
+### 3. Pair plot  
+![Pair plot](images/pairplot.png)
+
+### 4. Correlation heatmap  
+![Heatmap](images/heatmap.png)
 
 **Key Observations:**
 
