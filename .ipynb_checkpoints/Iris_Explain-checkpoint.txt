@@ -1,0 +1,51 @@
+HI My name is Deepanshu peoples calls me Deepu this project only learning purpose for me and practice real life I am using chatgpt and documentation for better knowledge, i will be not a copy paster, i will understand all the things that i do in this project, i will not make this project bigger, its short clean and easy for begginer Because i dont want to frustate to start with making bigger proect lets start on main topic : - my learning mode is on some begginer freindly steps that is it :-
+
+Steps: 
+1. Problem Definition 
+2. EDA
+3. Clean
+4. Basic Features 
+5. train-Test split
+6. Baseline Model
+7. Evaluate property 
+
+
+lets start steps:- 
+1. Problem Definition:- 
+    1. Problem: Predict Flower species based on physical measurements
+    2. Type: Multi-class classification
+    3. Target: species(3 classes)
+    4. Features: SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm
+    5. Metrics: accuracy
+    6. constraints: None (academic dataset)
+
+2. EDA:- 
+    1. Structure: (What do I have)
+        #Code-level: df.shape, df.info(), df.head()
+        1. Rows?: 
+        2. Columns?: 
+        3. Data Types?:
+        4. Categorical?: 
+        5. Numeric?: 
+    2. Distribution:(How does the data behave?)
+        #Code-level: df.describe(), df.hist()
+        1. Mean 
+        2. Median
+        3. std 
+        4. Skewness 
+        5. Outliers
+    3. Relationship: (Who is Influencing Whom?)
+        #Code-level: df.corr(), sns.heatmap(), sns.scatterplot()
+        1. Feature Vs Target 
+        2. Feature Vs Features
+    4. Data Quality: (Is the data Clean or Fraud?)
+        #Code-level: df.isnull().sum(), df.duplicate().sum
+        1. Missing Values 
+        2. Duplicate Rows
+        3. impossible Values
+    5. Target behavior: (What I am Predicting)
+        #Code-level: df['target].value_counts()
+        1. Class Imbalance?
+        2. Distribution
+        3. Rare class
+        
